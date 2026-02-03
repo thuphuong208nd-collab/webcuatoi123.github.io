@@ -1,0 +1,114 @@
+body {
+    background: orange !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* NỀN TRANG */
+body {
+    background: linear-gradient(#ffeaea, #ffffff);
+}
+
+/* HEADER */
+.header {
+    background-color: #c62828;
+    padding: 25px;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+    font-size: 24px;
+}
+
+/* KHUNG CHUNG */
+.box {
+    background: white;
+    width: 80%;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* THƠ */
+.poem {
+    background: #fff5f5;
+}
+
+.poem h3 {
+    color: #c62828;
+    margin-bottom: 10px;
+}
+
+.poem p {
+    font-style: italic;
+    line-height: 1.8;
+}
+
+/* ẢNH – 4 ẢNH CÙNG LÚC */
+.hinhanh {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.hinhanh img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* VIDEO */
+.video video {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* NGƯỜI THỰC HIỆN */
+.thanhvien {
+    background: #fff8f8;
+}
+
+.thanhvien h3 {
+    color: #c62828;
+    margin-bottom: 10px;
+}
+
+/* BÌNH LUẬN */
+.comment {
+    background: #fff0f0;
+}
+
+.comment h3 {
+    color: #c62828;
+    margin-bottom: 10px;
+}
+
+.comment input,
+.comment textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.comment button {
+    background: #c62828;
+    color: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
